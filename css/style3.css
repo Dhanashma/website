@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    background-image: url(/images/kozhikodebeach.jpg);
+    background-image: url(../images/kozhikodebeach.jpg);
     background-size: cover;
     background-position:absolute;
     background-repeat: no-repeat;
