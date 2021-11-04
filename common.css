@@ -7,7 +7,7 @@ body{
 
 }
 .top{
-    background-image: url("/images/lightbg.jpg");
+    background-image: url("images/lightbg.jpg");
 }
 
 .top h1{
