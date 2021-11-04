@@ -2,54 +2,53 @@ body{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    background-image: url(../images/kozhikodebeach.jpg);
+    background-image: url(../images/MUNNAR.jpg);
     background-size: cover;
-    background-position:absolute;
+    background-position: absolute;
     background-repeat: no-repeat;
 }
-.signup{
+.loginbox{
     width: 320px;
-    height: 450px;
+    height: 390px;
     border-radius: 40px;
     color: white;
-    background-color:black;
-    opacity: 77%;
-    top: 50%;
-    left: 50%;
+    background-color: black;
+    opacity: 70%;
     position:absolute;
-    transform: translate(-50%,-50%);
+    top: 25%;
+    left: 38%;
     padding-left: 28px;
     padding-right: 28px;
 }
 h1{
+    padding-top:30px;
     text-align: center;
-    color:rgb(223, 9, 109);
-    /* padding-top: 50px; */
+    color:white;
+    opacity: 100%;
 }
-  /* .signup label{
+  .loginbox label{
       font-weight: bold;
       font-size: 16px;
-  } */
+  }
 
-  .signup input{
+  .loginbox input{
       width: 100%;
-      margin-top: 20px;
+      margin-top: 10px;
       margin-bottom: 20px;
       padding-bottom: 7px;
   }
 
-  .signup input[type="text"], input[type="password"],input[type="number"],input[type="email"]{
+  .loginbox input[type="email"], input[type="password"]{
       border:none;
       border-bottom:1px solid white;
       background: transparent;
       outline: none;
       color: white;
-      font-size: 14px;
-      margin-top: auto;
+      font-size: 16px;
   }
-  .signup input[type="submit"]{
+  .loginbox input[type="submit"]{
       transform: translate(95%);
-      background-color: rgb(223, 9, 109);
+      background-color: white;
       opacity: 100%;
       border: none;
       height: 40px;
@@ -59,15 +58,15 @@ h1{
       font-weight: bold;
       padding: 10px;
   }
-  .signup input[type="submit"]:hover{
-    color:rgb(223, 9, 109);
+  .loginbox input[type="submit"]:hover{
+    color:red;
     background-color: burlywood;
   }
-  .signup a{
+  .loginbox a{
       text-decoration: none;
-      color:rgb(223,9,109);
+      color:white;
       font-size: 12px;
   }
-  .signup a:hover{
+  .loginbox a:hover{
     color:blueviolet;
   }
