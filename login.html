@@ -8,18 +8,19 @@
 </head>
 <body>
     <div class="loginbox">
-    <form action="#">
+    <form onsubmit="return validate()" action="index.html">
         <h1> Login </h1>
          <br>
         <!-- <label> Username</label><br> -->
-        <input type="email" placeholder="E-mail">   
+        <input type="email" placeholder="E-mail" id="email" required>   
         <!-- <label> Password </label><br> -->
-        <input type="password" placeholder="Password" minlength="8" maxlength="12">
-        <input type="submit" value="Login">
+        <input type="password" placeholder="Password" minlength="8" maxlength="12" id="pwd" required>
+        <input type="submit" value="Login" id="submit">
         <br>
         <a href="#"> Forgot password? </a>
      
     </form>
     </div>
+     <script src="login.js"></script>
 </body>
 </html>

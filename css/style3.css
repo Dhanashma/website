@@ -9,7 +9,7 @@ body{
 }
 .signup{
     width: 320px;
-    height: 450px;
+    height: 520px;
     border-radius: 40px;
     color: white;
     background-color:black;
@@ -34,7 +34,7 @@ h1{
   .signup input{
       width: 100%;
       margin-top: 20px;
-      margin-bottom: 20px;
+      margin-bottom: 35px;
       padding-bottom: 7px;
   }
 
@@ -59,6 +59,10 @@ h1{
       font-weight: bold;
       padding: 10px;
   }
+  /* #msg{
+      font-size: 12px;
+      padding-top: 1px;
+  } */
   .signup input[type="submit"]:hover{
     color:rgb(223, 9, 109);
     background-color: burlywood;
@@ -71,3 +75,9 @@ h1{
   .signup a:hover{
     color:blueviolet;
   }
+  #strength{
+      opacity: 77%;
+      display:none;
+      margin-top: -8%;
+  }
+ 

@@ -8,24 +8,28 @@
 </head>
 <body>
     <div class="signup">
-    <form action="#">
+    <form onsubmit = "return validate()" action="login.html" id="form">
         <h1> Sign Up </h1>
          <br>
         <!-- <label> Name</label><br> -->
-        <input type="text" placeholder="Name">   
+        <input type="text" placeholder="Name" id="name" >   
         <!-- <label>Mobile number</label> -->
-        <input type="number" placeholder="Mobile number" minlength="10" maxlength="10">
+        <input type="text" id="phone" placeholder="Mobile number">
         <!-- <label>Email</label> -->
-        <input type="email" placeholder="E-mail">
+        
+        <input type="email" id="email" placeholder="E-mail" required>
+        <label for="error" id="error"></label>
         <!-- <label> Password </label><br> -->
-        <input type="password" placeholder="Password" minlength="8" maxlength="12">
+        <input type="password" id="pwd" placeholder="Password" minlength="8" maxlength="14" required onkeyup="return passwordChanged();">
+        <span id="strength">Type Password</span>
         <!-- <label> Confirm Password</label> -->
-        <input type="password" placeholder="Confirm Password" minlength="8" maxlength="12">
+        <input type="password" id="retype" placeholder="Confirm Password" required>
         <input type="submit" value="Sign Up">
         <br>
         <a href="login.html"> Already have an account? Login </a>
      
     </form>
     </div>
+    <script src="jscopy.js"></script>
 </body>
 </html>

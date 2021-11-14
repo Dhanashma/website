@@ -37,7 +37,7 @@ body{
 }
  .card{
         float:left;
-        margin-left: 20px;
+        /* margin-left: 20px; */
         margin-right: 15px;
         margin-top: 10px;
 }
@@ -51,4 +51,7 @@ body{
 .card-title {
     text-align: center;
 
+}
+.card-text{
+    text-align: justify;
 }
