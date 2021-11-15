@@ -32,7 +32,8 @@ function validate()
 		}
 		else if(z==0)
 		{
-			alert('Phone number must be of 10 digits in the proper format ');
+			alert('Phone number must be of 10 digits in any of the format
+			      xxxxxxxxxx,xxx xxx xxxx, xxx.xxx.xxxx, xxx-xxx-xxxx);
 			return false;
 		}
 
@@ -44,7 +45,7 @@ function validate()
 				
 		else if(!Password.test(pwd))
 		{
-			alert ('Upper case, Lower case and Numeric letter are required in Password filed');
+			alert ('Upper case, Lower case and Numeric letter are required in Password field');
 			return false;
 		}
 		
