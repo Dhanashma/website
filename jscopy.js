@@ -14,11 +14,7 @@ function validate()
 		var Password = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]*)/;
 		
 		var z = mobileno();
-		// if(name.trim()=="")
-		// {
-		// 	alert('Please enter your name');
-		// 	return false;
-		// }
+		
 		if(name.trim()==""||phone.trim()==""||email.trim()==""||pwd.trim()==""||cpwd.trim()==""){
 			alert('Fields cannot be empty');
 			return false;
@@ -29,11 +25,7 @@ function validate()
 			alert('Please check your name');
 			return false;
 		}
-		// else if(phone.trim()=="")
-		// { 	
-		// 	alert('Enter Mobile number');
-		// 	return false;
-		// }
+		
 		else if(z==0)
 		{
 			alert('Phone number must be of 10 digits in any of the format xxxxxxxxxx, xxx xxx xxxx, xxx.xxx.xxxx, xxx-xxx-xxxx');
@@ -48,7 +40,7 @@ function validate()
 				
 		else if(!Password.test(pwd))
 		{
-			alert ('Upper case, Lower case and Numeric letter are required in Password filed');
+			alert ('Upper case, Lower case and Numeric letter are required in Password field');
 			return false;
 		}
 		
